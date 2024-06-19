@@ -1,0 +1,72 @@
+body.-theme-with-dark-background {
+	background-color: #2a2a2a;
+	color: #ccc;
+  }
+  
+  .widget {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	padding: 8px;
+  }
+  
+  .vbox {
+	flex-direction: column;
+  }
+  
+  .root-view {
+	height: 100%;
+	overflow: auto;
+  }
+  
+  .header {
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #444;
+  }
+  
+  .data-grid {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+  }
+  
+  .data-grid th,
+  .data-grid td {
+	text-align: left;
+	padding: 8px;
+	border-bottom: 1px solid #444;
+  }
+  
+  .data-grid th {
+	position: sticky;
+	top: 0;
+	background-color: #333;
+  }
+  
+  .data-grid tbody tr:hover {
+	background-color: #3a3a3a;
+  }
+  
+
+  .cf-status.hit { color: #4CAF50; } /* Green for HIT */
+  .cf-status.miss { color: #f44336; } /* Red for MISS */
+  .cf-status.dynamic { color: #2196F3; } /* Blue for DYNAMIC */
+  .cf-status.na { color: #757575; } /* Grey for Not Available */
+  
+  a {
+	color: #9cdcfe; /* Light blue link color */
+	text-decoration: none;
+  }
+  a:hover {
+	text-decoration: underline;
+  }
+  
+  .data-grid th, .data-grid td {
+	padding: 8px;
+	border-bottom: 1px solid #444;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+  }

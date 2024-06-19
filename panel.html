@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Network Requests</title>
+</head>
+<body class="-theme-with-dark-background">
+  <div class="widget vbox root-view">
+    <h1 class="header">Cloudflare Cache Status</h1>
+    <div class="widget vbox">
+      <table class="data-grid" id="requestsTable">
+        <thead>
+			<tr>
+				<th>Status</th>
+				<th>CF</th>
+				<th>URL</th>
+				<th>MIME Type</th>
+				<th>Extension</th>
+			  </tr>
+        </thead>
+        <tbody>
+          <!-- Rows will be added here dynamically -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="panel.js"></script>
+</body>
+</html>
